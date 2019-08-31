@@ -1,0 +1,23 @@
+{
+  "name": "install-npm-reset-scripts",
+  "version": "1.0.0",
+  "description": "Installs a few reset scripts into your package json",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanlabouve/install-npm-reset-scripts.git"
+  },
+  "author": "@ryanlabouve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanlabouve/install-npm-reset-scripts/issues"
+  },
+  "homepage": "https://github.com/ryanlabouve/install-npm-reset-scripts#readme",
+  "devDependencies": {
+    "tape": "^4.11.0"
+  },
+  "bin": "./index.js"
+}
