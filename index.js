@@ -22,7 +22,13 @@ function index() {
   }
 
   packageJson.scripts = Object.assign({}, packageJson.scripts, defaultScripts);
-  debugger;
+
+
+  try {
+    fs.writeFileSync('package.json', JSON.stringify(packageJson, null, 2));
+  } catch {
+    console.log("Error writing package.json");
+  }
 }
 
 index();
